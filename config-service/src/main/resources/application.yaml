@@ -7,6 +7,6 @@ spring:
         git:
           default-label: config-server
           uri: https://github.com/nayibimartin/vehicles-services.git
-          search-paths: confid-data
+          search-paths: config-data
   application:
     name: config-service
