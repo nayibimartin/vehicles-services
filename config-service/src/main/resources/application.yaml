@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: config-server
+          uri: https://github.com/nayibimartin/vehicles-services.git
+          search-paths: confid-data
+  application:
+    name: config-service
