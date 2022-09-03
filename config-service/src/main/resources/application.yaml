@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: multiple-instance
           uri: https://github.com/nayibimartin/vehicles-services.git
           search-paths: config-data
   application:
