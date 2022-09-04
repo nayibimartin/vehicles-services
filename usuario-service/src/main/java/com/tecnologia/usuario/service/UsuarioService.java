@@ -35,13 +35,13 @@ public class UsuarioService {
 
 	public List<Carro> getCarrosByIdUsuario(Long id) {
 		List<Carro> carros = restTemplateConfig.restTemplate()
-			.getForObject("http://localhost:8002/carros/usuarios/" + id, List.class);
+			.getForObject("http://carro-service/carros/usuarios/" + id, List.class);
 		return carros;
 	}
 
 	public List<Moto> getMotosByIdUsuario(Long id) {
 		List<Moto> motos = restTemplateConfig.restTemplate()
-			.getForObject("http://localhost:8003/motos/usuarios/" + id, List.class);
+			.getForObject("http://moto-service/motos/usuarios/" + id, List.class);
 		return motos;
 	}
 
