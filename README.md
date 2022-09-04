@@ -6,4 +6,4 @@ Para el registro y descubrimiento de los microservicios: Eureka Server.
 Para enrutar desde un único punto de entrada: API Gateway.
 Para el balanceo de cargas:Load Balancer.
 Para manejar la tolerancia a fallos: Circuit Breaker.
-Para realizar tracing: Zipkin y Seulth.
+Para realizar el rastreo de los microservicios: Zipkin y Seulth.
